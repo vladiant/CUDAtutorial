@@ -58,9 +58,9 @@
 * CUDA does not throw
   * Silent failure
 
-* Core functions return cudaError_t
+* Core functions return [cudaError_t](https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html#group__CUDART__TYPES_1gf599e5b8b829ce7db0f5216928f6ecb6)
   * Can check against cudaSuccess
-  * Get description with cudaGetErrorString()
+  * Get description with [cudaGetErrorString()](https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__ERROR.html#group__CUDART__ERROR_1g4bc9e35a618dfd0877c29c8ee45148f1)
 
 * Libraries may have different error types
-  * E.g. cuRAND has curandStatus_t
+  * E.g. cuRAND has [curandStatus_t](https://docs.nvidia.com/cuda/curand/group__HOST.html#group__HOST_1gb94a31d5c165858c96b6c18b70644437)

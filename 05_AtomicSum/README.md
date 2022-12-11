@@ -27,8 +27,8 @@ atomicOP(x,y)
 ## Summary
 * Atomic operations ensure operations on a variable cannot be interrupted by a different thread
 * CUDA supports several atomic operations
-   * `atomicAdd()`
-   * `atomicOr()`
-   * `atomicMin()`
+   * [atomicAdd()](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#atomicadd)
+   * [atomicOr()](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#atomicor)
+   * [atomicMin()](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#atomicmin)
    * … and others
 * Atomics incur a heavy performance penalty

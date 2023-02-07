@@ -14,7 +14,7 @@
 * `GPU_OVERLAP`
 
 ## Stream API
-* `cudaStream_t`
+* [cudaStream_t](https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html#group__CUDART__TYPES_1ge15d9c8b7a240312b533d6122558085a)
 * `cudaStreamCreate(&stream)`
 * `kernel<<<blocks,threads,shared,stream>>>`
 * `cudaMemcpyAsync()`

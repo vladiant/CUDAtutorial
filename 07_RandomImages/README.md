@@ -38,9 +38,9 @@
 
 ## Pinned Memory
 
-### `cudaHostAlloc(pHost, size, flags)`
+### [cudaHostAlloc(pHost, size, flags)](https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__MEMORY.html#group__CUDART__MEMORY_1gb65da58f444e7230d3322b6126bb4902)
 
-### `flags parameter can be`
+### Flags parameter can be
 
 * cudaHostAllocMapped
    * Maps memory directly into GPU address space
